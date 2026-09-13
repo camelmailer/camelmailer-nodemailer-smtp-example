@@ -1,6 +1,6 @@
 import nodemailer from 'nodemailer';
 
-// CamelMailer speaks plain SMTP — no SDK needed. Authenticate with an
+// Camelmailer speaks plain SMTP — no SDK needed. Authenticate with an
 // SMTP credential of your server: the *credential key* is the password,
 // the username can be anything (the server identifies you by the key).
 const transporter = nodemailer.createTransport({
@@ -16,7 +16,7 @@ const transporter = nodemailer.createTransport({
 const info = await transporter.sendMail({
   from: process.env.CAMELMAILER_FROM ?? 'you@yourdomain.com',
   to: process.env.CAMELMAILER_TO ?? 'delivered@example.com',
-  subject: 'Hello from CamelMailer over SMTP',
+  subject: 'Hello from Camelmailer over SMTP',
   html: '<strong>It works!</strong>',
 });
 

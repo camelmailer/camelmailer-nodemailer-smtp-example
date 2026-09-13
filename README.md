@@ -1,10 +1,10 @@
-# CamelMailer with Nodemailer (SMTP)
+# Camelmailer with Nodemailer (SMTP)
 
-This example shows how to use [CamelMailer](https://camelmailer.com) with [Nodemailer](https://nodemailer.com) over plain SMTP — no SDK, no HTTP API. Anything that can speak SMTP can send through CamelMailer.
+This example shows how to use [Camelmailer](https://camelmailer.com) with [Nodemailer](https://nodemailer.com) over plain SMTP — no SDK, no HTTP API. Anything that can speak SMTP can send through Camelmailer.
 
 ## Where the credentials come from
 
-1. Open your CamelMailer dashboard → your organization → your server → **Credentials**.
+1. Open your Camelmailer dashboard → your organization → your server → **Credentials**.
 2. Create a new credential of type **SMTP (password)**.
 3. Copy the credential key — it is shown exactly once.
 
